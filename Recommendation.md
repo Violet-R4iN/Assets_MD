@@ -111,7 +111,7 @@ jike mencoba input anime dengan Type movie seperti 'Koe no Katachi' maka akan di
 | Hinomaru Hatanosuke: Inazuma-gumi Tobatsu no Maki | Movie |
 | Ninja Hattori-kun: Nin Nin Ninpo Enikki no Maki   | Movie |
 
-Untuk mengevaluasi model rekomendasi, metrik Precision digunakan. Akurasi dalam konteks ini mengukur seberapa tepat rekomendasi yang diberikan model berdasarkan tipe anime yang sesuai. Akurasi dihitung sebagai rasio jumlah anime yang memiliki tipe yang sama dengan anime input terhadap total anime yang direkomendasikan (k).
+Untuk mengevaluasi model rekomendasi, metrik Precision digunakan. Precision dalam konteks ini mengukur seberapa tepat rekomendasi yang diberikan model berdasarkan tipe anime yang sesuai. Precision berfokus pada seberapa banyak dari anime yang direkomendasikan yang benar-benar relevan (memiliki tipe yang sama dengan anime input), dibandingkan dengan total anime yang direkomendasikan.
 
 rumus untuk perhitungan Precision adalah
 
