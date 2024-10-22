@@ -115,10 +115,8 @@ Untuk mengevaluasi model rekomendasi, metrik Precision digunakan. Akurasi dalam 
 
 rumus untuk perhitungan akurasi adalah
 
-\[
-\text{Precision} = \left( \frac{\text{Number of Relevant Recommendations
-}}{\text{Total Recommendations}} \right) \times 100
-\]
+`$\text{Precision} = \left( \frac{\text{Number of Relevant Recommendations}}{\text{Total Recommendations}} \right) \times 100$`
+
 
 Pengujian berdasarkan result menunjukkan bahwa model mencapai 100% akurasi dalam memberikan rekomendasi. Setiap rekomendasi yang diberikan sesuai dengan preferensi pengguna, menunjukkan bahwa model dapat dengan efektif mengidentifikasi anime yang mirip berdasarkan karakteristik yang ada.
 
