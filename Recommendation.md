@@ -113,7 +113,7 @@ jike mencoba input anime dengan Type movie seperti 'Koe no Katachi' maka akan di
 
 Untuk mengevaluasi model rekomendasi, metrik Precision digunakan. Akurasi dalam konteks ini mengukur seberapa tepat rekomendasi yang diberikan model berdasarkan tipe anime yang sesuai. Akurasi dihitung sebagai rasio jumlah anime yang memiliki tipe yang sama dengan anime input terhadap total anime yang direkomendasikan (k).
 
-rumus untuk perhitungan akurasi adalah
+rumus untuk perhitungan Precision adalah
 
 $$
 \text{Precision} = \left( \frac{\text{Number of Relevant Recommendations}}{\text{Total Recommendations}} \right) \times 100
@@ -121,7 +121,7 @@ $$
 
 
 
-Pengujian berdasarkan result menunjukkan bahwa model mencapai 100% akurasi dalam memberikan rekomendasi. Setiap rekomendasi yang diberikan sesuai dengan preferensi pengguna, menunjukkan bahwa model dapat dengan efektif mengidentifikasi anime yang mirip berdasarkan karakteristik yang ada.
+Pengujian berdasarkan result menunjukkan bahwa model mencapai 100% Precision dalam memberikan rekomendasi. Setiap rekomendasi yang diberikan sesuai dengan preferensi pengguna, menunjukkan bahwa model dapat dengan efektif mengidentifikasi anime yang mirip berdasarkan karakteristik yang ada.
 
 berdasarkan problem statement :
 
